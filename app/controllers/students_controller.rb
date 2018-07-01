@@ -14,9 +14,8 @@ class StudentsController < ApplicationController
   end
 
   def create
-    puts "I'm params #{params}"
-    #@student = Student.new(params[:student])
-    @student.save
+    Student.create(params[:student])
+    redirect_to posts_path
   end
 
 end
