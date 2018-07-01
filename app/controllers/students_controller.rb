@@ -1,6 +1,7 @@
 class StudentsController < ApplicationController
 
   def new
+    puts '=== in NEW'
     # @student = Student.new
     render :new
   end
