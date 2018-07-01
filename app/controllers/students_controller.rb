@@ -7,7 +7,7 @@ class StudentsController < ApplicationController
 
   def index
     @students = Student.all
-    render :index 
+    render :index
   end
 
   def show
