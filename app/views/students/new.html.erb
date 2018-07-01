@@ -6,5 +6,7 @@
   <label>Last Name:</label><br>
   <input type="text" id="last_name" name="student[:last_name]"><br>
 
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+
   <input type="submit" value="Submit Student">
 </form>
