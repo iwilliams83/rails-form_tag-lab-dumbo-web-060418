@@ -1,8 +1,8 @@
 class StudentsController < ApplicationController
 
   def new
-    @student = Student.new
-    render :new
+    # @student = Student.new
+    # render :new
   end
 
   def index
